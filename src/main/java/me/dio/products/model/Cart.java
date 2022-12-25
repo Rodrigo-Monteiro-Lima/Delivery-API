@@ -31,6 +31,6 @@ public class Cart {
 	  private Double total;
 	  @Enumerated
 	  private PaymentMethod PaymentMethod;
-	  private boolean closed;	  
+	  private boolean closed;
 	  
 }

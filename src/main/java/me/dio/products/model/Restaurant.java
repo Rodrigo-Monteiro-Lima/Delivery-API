@@ -32,4 +32,5 @@ public class Restaurant {
 	private List<Product> menu;
 	@Embedded
 	private Adress adress;
+	
 }
