@@ -19,6 +19,7 @@ import java.util.List;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @NoArgsConstructor
 public class Cart {
+	
 	 @Id
 	  @GeneratedValue(strategy = GenerationType.AUTO)
 	  private Long id;
@@ -30,5 +31,6 @@ public class Cart {
 	  private Double total;
 	  @Enumerated
 	  private PaymentMethod PaymentMethod;
-	  private boolean closed;
+	  private boolean closed;	  
+	  
 }
